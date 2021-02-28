@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="https://unpkg.com/adawarp@latest/dist/adawarp.js"></script>
+    <script type="text/javascript" src="videoChat.js"></script>
+</head>
+<body>
+    <h1>Simple Video Chat</h1>
+    <a href="https://github.com/cdra0624/webRTCsamples"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+    <div>
+        <video id="my-video" style="width: 300px;" autoplay muted></video>
+        <video id="peer-video" style="width: 300px;" autoplay></video>
+    </div>
+    <div>
+        <p>MyID: <span id="my-id">-</span></p>
+        <p>PeerID: <span id="peer-id">-</span></p>
+    </div>
+    <div>
+        <input type="text" placeholder="PeerID" id="peer-id-input">
+        <button onclick="callStart()">Start Call</button>
+        <button onclick="callEnd()">End Call</button>
+    </div>
+</body>
+</html>

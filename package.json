@@ -1,0 +1,27 @@
+{
+  "name": "webrtc-samples",
+  "version": "1.0.0",
+  "description": "make simple webRTC samples using PeerJS, Skyway, MultiPeerConnection",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-dev index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdra0624/webRTCsamples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdra0624/webRTCsamples/issues"
+  },
+  "homepage": "https://github.com/cdra0624/webRTCsamples#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "node-dev": "^3.1.3"
+  }
+}
